@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-import os 
+import os
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://erzszhbmucfrnx:fcfc283ac049a23352a7420f9d7a742a248dbc251188a8b57780110237a041d5@ec2-52-209-134-160.eu-west-1.compute.amazonaws.com:5432/d9vfb7lg5mjmdm')
-}
+    'default': dj_database_url.parse('postgres://eyrhxlewvzgjch:986046c0917b7f9c305fac976d478677ba7eb339b8dad591308649e36d93d936@ec2-52-71-231-37.compute-1.amazonaws.com:5432/dfpkfedi26uera')
 
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
